@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libVO.so -o ../lib/libVO.so CMakeFiles/VO.dir/src/featureTracking.cpp.o CMakeFiles/VO.dir/src/frame.cpp.o CMakeFiles/VO.dir/src/feature.cpp.o CMakeFiles/VO.dir/src/visualization.cpp.o 

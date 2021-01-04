@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Test1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCUDA">
+				<Option output="/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/testCUDA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCUDA"/>
+					<CompileFile command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testCUDA/fast">
+				<Option output="/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/testCUDA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 testCUDA/fast"/>
+					<CompileFile command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command=" -f &quot;/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/CMakeFiles/testCUDA.dir/testCUDA_generated_main.cu.o">
+			<Option target="testCUDA"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/CUDA_project1/main.cu">
+			<Option target="testCUDA"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/CUDA_project1/test.h">
+			<Option target="testCUDA"/>
+		</Unit>
+		<Unit filename="/home/liushiqi/ClionProjects/CUDA_project1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

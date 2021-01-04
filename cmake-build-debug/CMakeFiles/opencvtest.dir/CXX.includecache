@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/liushiqi/ClionProjects/CUDA_project1/opencvCUDATest.cpp
+iostream
+-
+opencv4/opencv2/imgcodecs.hpp
+-
+opencv4/opencv2/core.hpp
+/home/liushiqi/ClionProjects/CUDA_project1/opencv4/opencv2/core.hpp
+opencv4/opencv2/imgproc.hpp
+/home/liushiqi/ClionProjects/CUDA_project1/opencv4/opencv2/imgproc.hpp
+opencv4/opencv2/cudafeatures2d.hpp
+/home/liushiqi/ClionProjects/CUDA_project1/opencv4/opencv2/cudafeatures2d.hpp
+opencv4/opencv2/cudaimgproc.hpp
+/home/liushiqi/ClionProjects/CUDA_project1/opencv4/opencv2/cudaimgproc.hpp
+

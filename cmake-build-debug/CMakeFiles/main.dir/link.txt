@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/main.dir/VOTest.cpp.o  -o main 

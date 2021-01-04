@@ -1,0 +1,20 @@
+/home/liushiqi/clion-2018.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/liushiqi/ClionProjects/CUDA_project1
+-- Using CATKIN_DEVEL_PREFIX: /home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/liushiqi/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/liushiqi/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.15", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.15") 
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+$PROJECT_SOURCE_DIR
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/liushiqi/ClionProjects/CUDA_project1/cmake-build-debug
